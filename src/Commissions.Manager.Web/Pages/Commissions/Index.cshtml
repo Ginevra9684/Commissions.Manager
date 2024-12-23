@@ -1,0 +1,29 @@
+﻿@page
+@using Commissions.Manager.Localization
+@using Microsoft.Extensions.Localization
+@model Commissions.Manager.Web.Pages.Commissions.IndexModel
+@inject IStringLocalizer<ManagerResource> L
+@section scripts
+{
+    <abp-script src="/Pages/Commissions/Index.js" />
+}
+
+<abp-card>
+    <abp-card-header>
+        <abp-row>
+            <abp-column size-md="_6">
+                <abp-card-title>@L["Commissions"]</abp-card-title>
+            </abp-column>
+            <abp-column size-md="_6" class="text-end">
+                <abp-button id="NewCommissionButton"
+                           text="@L["NewCommission"].Value"
+                           icon="plus"
+                           button-type="Primary" />
+            </abp-column>
+        </abp-row>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-table striped-rows="true" id="CommissionsTable">
+        </abp-table>
+    </abp-card-body>
+</abp-card>

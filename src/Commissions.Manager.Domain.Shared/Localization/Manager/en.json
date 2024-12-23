@@ -1,0 +1,47 @@
+{
+  "Culture": "en",
+    "Texts": {
+        // App
+        "AppName": "Manager",
+        "Menu:Home": "Home",
+        "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
+        "Welcome": "Welcome",
+        "Update": "Update",
+        "Edit": "Edit",
+        "SuccessfullyCreated": "Successfully created",
+        "SuccessfullyUpdated": "Successfully updated",
+        "SuccessfullyDeleted": "Successfully deleted",
+        "ErrorCreatingRecord": "Error occurred while creating the record",
+        "ErrorUpdatingRecord": "Error occurred while updating the record",
+        "ErrorDeletingRecord": "Error occurred while deleting the record",
+        // Commons
+        "Name": "Name",
+        "Email": "Email",
+        "HourlyFee": "Hourly Fee",
+        // Employees
+        "Menu:Employees": "Employees",
+        "Employees": "Employees",
+        "NewEmployee": "New Employee",
+        "Employee": "Employee",
+        "EmployeeDeletionConfirmationMessage": "Are you sure you want to proseed with the deletion of the employee",
+        "EmployeeSuccessfullyDeleted": "Employee successfully deleted",
+        // Customers
+        "Menu:Customers": "Customers",
+        "Customers": "Customers",
+        "SelectCustomer": "Select a Customer",
+        "NewCustomer": "New Customer",
+        "Customer": "Customer",
+        "CustomerDeletionConfirmationMessage": "Are you sure you want to proseed with the deletion of the customer",
+        "CustomerSuccessfullyDeleted": "Customer successfully deleted",
+        // Commissions
+        "Menu:Commissions": "Commissions",
+        "Commissions": "Commissions",
+        "NewCommission": "New Commission",
+        "Type": "Type",
+        "Total": "Total",
+        "IsActive": "Is Active",
+        "CommissionDeletionConfirmationMessage": "Are you sure you want to delete the commission {0}?",
+        "Enum:CommissionType.0": "ByProject",
+        "Enum:CommissionType.1": "TimeAndMaterial"
+    }
+}
